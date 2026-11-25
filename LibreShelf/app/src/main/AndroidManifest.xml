@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/><queries><intent><action android:name="android.intent.action.VIEW"/><data android:mimeType="application/epub+zip"/></intent><intent><action android:name="android.intent.action.VIEW"/><data android:mimeType="application/pdf"/></intent><intent><action android:name="android.intent.action.VIEW"/><data android:mimeType="application/vnd.comicbook+zip"/></intent><intent><action android:name="android.intent.action.VIEW"/><data android:mimeType="application/x-cbz"/></intent></queries>
+<application android:label="LibreShelf" android:icon="@drawable/logo" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:supportsRtl="true">
+<activity android:name=".MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+<activity android:name=".OpenBook" android:exported="false"/>
+<receiver android:name=".RotationReceiver" android:exported="false"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"/></intent-filter></receiver><receiver android:name=".ShelfWidget" android:exported="true"><intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter><meta-data android:name="android.appwidget.provider" android:resource="@xml/widget"/></receiver>
+</application></manifest>

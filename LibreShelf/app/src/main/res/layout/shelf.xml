@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="4dp">
+ <LinearLayout android:id="@+id/rows" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical" android:gravity="center"/>
+ <LinearLayout android:id="@+id/navigation" android:layout_width="match_parent" android:layout_height="28dp" android:gravity="center" android:orientation="horizontal" android:visibility="gone">
+ <TextView android:id="@+id/previous" android:layout_width="48dp" android:layout_height="match_parent" android:gravity="center" android:text="‹" android:textSize="23sp" android:textColor="#FFFFFF" android:background="#9926332E" android:contentDescription="Previous page"/>
+ <TextView android:id="@+id/page" android:layout_width="64dp" android:layout_height="match_parent" android:gravity="center" android:textColor="#FFFFFF" android:textSize="12sp" android:background="#9926332E"/>
+ <TextView android:id="@+id/next" android:layout_width="48dp" android:layout_height="match_parent" android:gravity="center" android:text="›" android:textSize="23sp" android:textColor="#FFFFFF" android:background="#9926332E" android:contentDescription="Next page"/>
+ </LinearLayout>
+</LinearLayout>
