@@ -1,6 +1,9 @@
 # LibreShelf
 An android compatible widgetry that looks friendly, and compatible with a wide array of e-book viewers.
 
+<img width="3169" height="1920" alt="XRecorder_Edited_20261124_01" src="https://github.com/user-attachments/assets/562fe8da-1f2f-40a9-8c83-fc1d0d5c675c" />
+<img width="1920" height="3174" alt="XRecorder_Edited_20261124_02" src="https://github.com/user-attachments/assets/5b1d0533-5419-4f1e-99e7-b821721f268c" /><br>
+
 # LibreShelf 0.2.0 — development preview
 
 A local-first floating Android bookshelf for EPUB, PDF and CBZ. GPL-3.0-only. No network permission, advertising, analytics, root or broad storage permission.
